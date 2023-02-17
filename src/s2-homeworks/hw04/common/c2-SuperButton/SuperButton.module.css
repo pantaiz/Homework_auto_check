@@ -1,4 +1,5 @@
 .button {
+    border: none;
     width: 132px;
     height: 30px;
     border-radius: 3px;
@@ -34,23 +35,42 @@
 }
 
 .default:hover {
+    background: #0080FF;
+
 }
 
 .red:hover {
+    background: #FF1A47;
+
 }
 
 .secondary:hover {
+    background:linear-gradient(0deg, #E5F0FA, #E5F0FA);
+
 }
 
 
 .default:active {
+    background: #0059B2;
+
 }
 
 .secondary:active {
+    background:#C9E5FF
+
 }
 
 .red:active {
+    background: #B21232;
+
 }
 
 .button:disabled {
+    height: 30px;
+    width: 133px;
+    left: 574px;
+    top: 369px;
+    border-radius: 3px;
+    padding: 5px 24px 5px 24px;
+
 }
